@@ -124,7 +124,6 @@ font-size: 30px;
                                     /* product css */
 
 
-
 .product{
     background-color: black;
 }
@@ -155,6 +154,19 @@ font-size: 30px;
   max-width: 100%;
   height: auto;
 }
+
+.product-container {
+  position: relative;
+}
+
+.product-container button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
 
 .product-card h2 {
   font-size: 24px;
