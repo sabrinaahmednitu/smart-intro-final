@@ -60,9 +60,6 @@ padding-left: 2px;
 
 
 .banner{
-      /* display: flex;
-    align-items: center;
-    justify-content: center; */
     background-image: url('/img/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,7 +90,12 @@ font-size: 50px;
   color: white;
 }
 
-@media screen and (min-width: 600px){
+@media screen and (max-width: 600px){
+  .ban-container{
+  margin-top: 50px;
+  margin-right: 50px;
+  color: white;
+}
 .ban-container h6{
   font-weight: 700;
 font-size: 10px;
@@ -104,8 +106,10 @@ text-transform: uppercase;
 font-weight: 700;
 font-size: 20px;
 }
+
 }
-@media screen and (max-width: 768px) {
+
+ @media screen and (max-width: 768px) {
  .ban-container h6{
   font-weight: 700;
 font-size: 10px;
@@ -116,7 +120,7 @@ text-transform: uppercase;
 font-weight: 700;
 font-size: 30px;
 }
-}
+} 
                                     /* product css */
 
 
